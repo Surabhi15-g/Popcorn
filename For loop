@@ -1,0 +1,3 @@
+for packet in range(1, 4):
+    print(f"making popcorn packet {packet}")
+print("All popcorn is ready!🍿")   

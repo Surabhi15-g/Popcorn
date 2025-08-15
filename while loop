@@ -1,0 +1,8 @@
+popcorn_ready = False
+time = 0
+while not popcorn_ready:
+    print(f"Checking at minute {time}....")
+    time += 1
+    if time == 4:
+        popcorn_ready = True
+        print("Popcorn is ready! 🍿")
